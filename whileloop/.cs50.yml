@@ -3,4 +3,14 @@ lab50:
     - !exclude "*"
     - !include while.c
 
-submit50: true
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !include "*.c"
+    - !include "*.txt"
+    - !include "*.doc"
+    - !include "*.docx"
+    - !include "*.pdf"
+
+submit50:
+  files: *check50_files
