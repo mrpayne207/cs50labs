@@ -2,3 +2,5 @@ lab50:
   files:
     - !exclude "*"
     - !include while.c
+
+submit50: true
