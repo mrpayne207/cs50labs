@@ -182,14 +182,16 @@ style50 datatypes.c
 
 When your program compiles and passes the style test, you have completed Data Types!
 
-## Submit
+## How to Submit
 
 To submit your code, execute
 
 ```
 submit50 marinacademycs/cs50labs/2020/datatypes
 ```
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
 
-Your submission should be graded for corretness and style withing a few minutes on [me50](https://submit.cs50.io/)
+
+## More Info
 
 [For more info on data types, download the CS50 Data Types Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/data_types.pdf)
