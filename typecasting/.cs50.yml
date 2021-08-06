@@ -4,3 +4,15 @@ lab50:
     - !include typecasting.c
     - !include ascii0.c
     - !include ascii1.c
+
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !include "*.c"
+    - !include "*.txt"
+    - !include "*.doc"
+    - !include "*.docx"
+    - !include "*.pdf"
+
+submit50:
+  files: *check50_files
