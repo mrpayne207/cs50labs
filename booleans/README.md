@@ -200,5 +200,5 @@ submit50 marinacademycs/cs50labs/2020/forloop
 
 Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
 
-
+### More Info
 [For more info, download the CS50 Boolean Expressions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/boolean_expressions.pdf)
