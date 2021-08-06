@@ -64,4 +64,28 @@ Keep in mind that you can use the value of `i` in your calculation. You can also
 
 {% endspoiler %}
 
+### Correctness
+
+Check your work with...
+
+```
+check50 marinacademycs/cs50labs/2020/forloop
+```
+
+### Style
+
+Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
+
+```
+style50 forloop.c
+```
+
+It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
+
+### How to Submit
+
+```
+submit50 marinacademycs/cs50labs/2020/forloop
+```
+
 [For more info, download the CS50 Loops Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
