@@ -82,7 +82,35 @@ You can declare additional variables if you want to and use functions in any of 
 Try adding a `printf` inside of the `bin_to_dec(binary)` function to see if the calculation is working correctly.
 {% endspoiler %}
 
+### Correctness
+
+Check your work with...
+
+```
+check50 marinacademycs/cs50labs/2020/debugging
+```
+
+### Style
+
+Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
+
+```
+style50 buggy.c
+```
+
+It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
+
+## How to Submit
+
+To submit your code, execute
+
+```
+submit50 marinacademycs/cs50labs/2020/debugging
+```
+
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
 
 
+## More Info
 
 [For more info, download the CS50 Bugs and Debugging Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/bugs_and_debugging.pdf)
