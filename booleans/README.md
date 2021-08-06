@@ -172,4 +172,28 @@ Complete the code on the right by adding one or more conditional statements to p
 
 Then test your code by entering inputs that are ints, floats, strings, and ints but that are outside the expected range (like 1000)!
 
+### Correctness
+
+Check your work with...
+
+```
+check50 marinacademycs/cs50labs/2020/booleans
+```
+
+### Style
+
+Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
+
+```
+style50 booleans.c
+```
+
+It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
+
+### How to Submit
+
+```
+submit50 marinacademycs/cs50labs/2020/booleans
+```
+
 [For more info, download the CS50 Boolean Expressions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/boolean_expressions.pdf)
