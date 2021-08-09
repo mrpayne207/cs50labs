@@ -104,6 +104,18 @@ When style50 outputs:
     <pre><code>Looks good!</code></pre>
 </div>
 
-you are done! Congratulations, you've completed the Syntax Lab!
+you are done! Congratulations, you've completed the Syntax Lab! Submityour lab using the command below.
+
+## How to Submit
+
+To submit your code, execute
+
+```
+submit50 marinacademycs/cs50labs/2020/syntax
+```
+
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
+
+
 
 [For more info, download the CS50 Syntax Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/syntax.pdf)
