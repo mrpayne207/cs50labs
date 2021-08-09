@@ -110,7 +110,7 @@ at the top of our program.
 
 {% next %}
 
-## Now It's Your Turn!
+## Your Turn
 
 Though the program on the right is correct and will execute properly, it is not well designed. For one thing, what if we want to start with different ages each time we run it? It's a lot of work to have to change each occurrence of `17` to whatever age the user wants to use!
 
@@ -187,6 +187,15 @@ Since we want to get into good habits early, check that your indentation, and sp
 ```
 style50 variables.c
 ```
+## How to Submit
+
+To submit your code, execute
+
+```
+submit50 marinacademycs/cs50labs/2020/variables
+```
+
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
 
 [For more info on variables, download the CS50 Variables Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/variables.pdf)
 
