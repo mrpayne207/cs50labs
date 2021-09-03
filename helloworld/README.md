@@ -49,7 +49,9 @@ Hello, world, indeed!
 
 ## Quick Practice
 
-Now let's make a very small change to this program. Add another line that prints your name. Something like `printf("My name is Keanu Reeves.");` Insert your name instead! Because you changed the program, you'll need to recompile it using `make helloworld`. Got it? Great!
+Now let's make a very small change to this program. Add another line that prints your name. Something like `printf("My name is Keanu Reeves");` Insert your name instead! Because you changed the program, you'll need to recompile it using `make helloworld`. 
+
+Got it? Great!
 
 
 ## How to Submit
