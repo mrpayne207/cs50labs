@@ -25,7 +25,7 @@ Here on out, to execute (i.e., run) a command means to type it into a terminal w
 Now, before we can execute the program at right, recall that we must *compile* it with a *compiler* (e.g., `clang` or `make`), translating it from *source code* into *machine code* (i.e., zeroes and ones). Execute the command below to do just that:
 
 ```
-make helloworld.c
+make helloworld
 ```
 
 And then execute this one again:
