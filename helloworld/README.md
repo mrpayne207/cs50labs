@@ -54,10 +54,10 @@ Now let's make a very small change to this program. Add another line that prints
 
 ## How to Submit
 
-Now let's practice submitting your work. Labs and problem sets will be submitted in this way. Execute the code below, logging in with your GitHub username and Github `token` when prompted. 
+Now let's practice submitting your work. Labs and problem sets will be submitted in this way. Execute the code below, logging in with your GitHub username and Github `token` when prompted. The token will appear as asterisks for security purposes.
 
 ```
-submit50 marinacademycs/labs/2020/helloworld
+submit50 marinacademycs/cs50labs/2020/helloworld
 ```
 
-You should have received a message that your code was submitted! Follow the link to explore what submitted work looks like.
+You will be prompted to accept the Academic Honesty policy. Type yes and your lab will be submitted! Follow the link to your results.
