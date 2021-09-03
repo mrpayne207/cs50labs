@@ -2,3 +2,11 @@ lab50:
   files:
     - !exclude "*"
     - !include helloworld.c
+
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !include "*.c"
+
+submit50:
+  files: *check50_files
