@@ -1,6 +1,6 @@
 # Hello, World!
 
-Welcome to your first lab. In this lab you will practice a single terminal command, modify your first c program, and then submit your work. Let's get started!
+Welcome to your first lab. In this lab you will practice a single terminal command, modify your first c program, and then submit your work. You will also get a feel for how labs work in this course. Let's get started!
 
 ## Listing Files
 
