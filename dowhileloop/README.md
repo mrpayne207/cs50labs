@@ -44,7 +44,7 @@ You may have to use a logical operator, such as `&&` (AND) or `||` (OR) to combi
 Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below:
 
 ```
-check50 marinacademycs/cs50labs/2020/dowhileloop
+check50 marinacademycs/cs50labs/2020/dowhile
 ```
 
 ### Style
@@ -52,7 +52,7 @@ check50 marinacademycs/cs50labs/2020/dowhileloop
 If you pass all the check50 test cases, and get all green smiley faces, try checking style50, as with:
 
 ```
-style50 dowhileloop.c
+style50 dowhile.c
 ```
 
 When your program compiles and passes the style test, you have completed Data Types!
@@ -62,7 +62,7 @@ When your program compiles and passes the style test, you have completed Data Ty
 To submit your code, execute
 
 ```
-submit50 marinacademycs/cs50labs/2020/dowhileloop
+submit50 marinacademycs/cs50labs/2020/dowhile
 ```
 Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
 
