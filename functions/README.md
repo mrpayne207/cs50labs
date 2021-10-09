@@ -174,12 +174,23 @@ long squared_sums(int a, int b)
 }
 ```
 
-Using this starter code, complete the custom function that computes the sum of the squares of two numbers. Prompt the user to enter two numbers (one at a time), then send those two numbers to the custom function. You could say you are "calling this function with two integer arguments". The function should square each number, add them together, and return that total to your main program.
+Using this starter code, complete the custom function that computes the sum of the squares of two numbers, i.e a<sup>2</sup> + b<sup>2</sup>. Prompt the user to enter two numbers (one at a time), then send those two numbers to the custom function. You could say you are "calling this function with two integer arguments". The function should square each number, add them together, and return that total to your main program.
 
 Make sure to test your program with different numbers.
 
-Got it? Continue on to submit your work.
+Got it? Great! You can complete the optional part 4, or skip to the bottom to submit your work.
 
+### Part 4 (optional): Find the Hypotenuse 
+
+Did you notice how the last problem computed the sum of two sides of a triangle? Let's finish it off by computing c in Pythagorean's Theorem, a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>. All that is left is to take the square root of total from the last problem. To do part 4:
+
+1. Create a new file called functions3.c
+2. Copy the code from functions2.c into functions3.c
+3. Modify your function defintion and prototype so that it computes c, given a and b from the user.
+4. You'll need to figure out how to [calculate the square root on your own] (https://manual.cs50.io/)
+5. Don't forget to check the function return type...
+
+Press next to submit your work!  
 { % next % }
 
 ### Style
