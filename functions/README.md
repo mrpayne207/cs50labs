@@ -50,14 +50,15 @@ Let's take a look at this example:
 #include <cs50.h>
 #include <stdio.h>
 
-int square(int n);
+int square(int n);  //function prototype, aka declaration
 
 int main(void)
 {
     int side = get_int("Enter the side length: ");
-    printf("The area is %i.\n", square(side));
+    printf("The area is %i.\n", square(side));   //square(side) is the fucntion call, which is inside the printf function
 }
 
+//function definition
 int square(int n)
 {
     return n * n;
@@ -133,7 +134,7 @@ Got it? Let's do one final problem!
 ### Part 3: Create a function that adds the sum of two squared numbers
 
 Let's do one problem. Create a new file named **functions2.c**. Copy this starter code into that file:
-```
+```c
 #include <stdio.h>
 #include <cs50.h>
 
