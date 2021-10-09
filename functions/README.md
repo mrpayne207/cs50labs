@@ -76,6 +76,8 @@ Feel free to try typing this code into a new file, compiling it, and testing it.
 
 ## Your Turn
 
+### Part 1: Create a function called get_positive_int
+
 Now you will create a custom function `get_positive_int()`, that should take as input a prompt from the user and should output the positive integer, once the user has complied. You may want to use functions we've already used, such as `get_int()`, in your implementation.
 
 The code is already started, with a function prototype already done. However the function itself, always returns a 0, which is not a positive number.
@@ -92,7 +94,7 @@ Try to get the function to do one thing at a time. Perhaps get a loop working wi
 
 If you wish to use `get_int()`, using `prompt` directly inside the parentheses won't work. This is because the input for `get_int()` works like a `printf()` statement, where we use placeholder for variables. So you may need to syntax something like
 
-```c
+```
 result = get_int("%s", prompt);
 ```
 
@@ -112,6 +114,93 @@ If you are really stuck, try to write some pseudocode first.
 
 
 {% endspoiler %}
+
+Compile and run your code and make sure it works before proceeding.
+
+{% next %}
+
+### Part 2:Create a function called get_negative_int
+
+In C you can add as many custom functions as you'd like to your code. Let's try that by adding a second function `get_negative_int()`. Using this same file, add a second function following the same format as `get_positive_int()` only this time you want to make sure the user enters a negative number. Here are the things you'll need to do:
+1. Using the existing prototype on line 4, create a new one for `get_negative_int()`
+2. Using the existing `get_positive_int()` function definition as a template, create a new function called `get_negative_int()` using the same function argument `string prompt`. Make sure to modify the name and make it so it returns a negative number and not a positive number.
+3. In your main function, prompt the user for a negative number, and then print that back, just like you did for `get_positive_int()`.
+
+Got it? Let's do one final problem!
+
+{% next %}
+
+### Part 3: Create a function that adds the sum of two squared numbers
+
+Let's do one problem. Create a new file named **functions2.c**. Copy this starter code into that file:
+```
+#include <stdio.h>
+#include <cs50.h>
+
+//Function Prototype to tell compiler function exists 
+long squared_sums(int a, int b);
+
+int main (void)
+{
+  //Prompt user to enter two numbers
+  
+  
+  
+  //Call the squared_sums function with those numbers as arguments
+  //Remember, the function should return a valeue, so you'll need a variable 
+  //to store that in.
+  
+  
+  
+  //Print the result
+  
+  
+}
+
+//Function definition
+long squared_sums(int a, int b)
+{
+  int total;
+  
+  //Square int a and square int b
+  
+  
+  //Add them together and store in a variable called total
+  
+  
+  return total;
+  
+}
+```
+
+Using this starter code, complete the custom function that computes the sum of the squares of two numbers. Prompt the user to enter two numbers (one at a time), then send those two numbers to the custom function. You could say you are "calling this function with two integer arguments". The function should square each number, add them together, and return that total to your main program.
+
+Make sure to test your program with different numbers.
+
+Got it? Continue on to submit your work.
+
+{ % next % }
+
+### Style
+
+Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
+
+```
+style50 functions.c
+style50 functions2.c
+```
+
+It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
+
+## How to Submit
+
+To submit your code, execute
+
+```
+submit50 marinacademycs/cs50labs/2020/functions
+```
+
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
 
 
 [For more information on functions download our CS50 Functions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/functions.pdf)
