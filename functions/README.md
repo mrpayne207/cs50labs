@@ -178,9 +178,13 @@ Now, using this starter code, complete the custom function that computes the sum
 
 Make sure to test your program with different numbers.
 
-Got it? Great! You can complete the optional part 4, or skip to the bottom to submit your work.
+Got it? Great! You can complete the optional part 4 in the enxt step, or continue straight to submitting your work.
+
+{% next %}
 
 ### Part 4 (optional): Find the Hypotenuse 
+
+#### This part is optional! You can press next below to submit your work on problems 1-3.
 
 Did you notice how the last problem computed the sum of two sides of a triangle? Let's finish it off by computing c in Pythagorean's Theorem, a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>. All that is left is to take the square root of total from the last problem. To do part 4:
 
@@ -189,6 +193,7 @@ Did you notice how the last problem computed the sum of two sides of a triangle?
 3. Modify your function defintion and prototype so that it computes c, given a and b from the user.
 4. You'll need to figure out how to [calculate the square root on your own] (https://manual.cs50.io/)
 5. Don't forget to check the function return type...
+
 
 Press next to submit your work!  
 
