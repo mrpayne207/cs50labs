@@ -191,7 +191,8 @@ Did you notice how the last problem computed the sum of two sides of a triangle?
 5. Don't forget to check the function return type...
 
 Press next to submit your work!  
-{ % next % }
+
+{% next %}
 
 ### Style
 
