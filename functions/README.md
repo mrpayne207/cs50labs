@@ -133,7 +133,7 @@ Got it? Let's do one final problem!
 
 ### Part 3: Create a function that adds the sum of two squared numbers
 
-Let's do one problem. Create a new file named **functions2.c**. Copy this starter code into that file:
+This problems requires you to write more in the function's definition than before. Create a new file named **functions2.c**. Copy this starter code into that file:
 ```c
 #include <stdio.h>
 #include <cs50.h>
@@ -174,7 +174,7 @@ long squared_sums(int a, int b)
 }
 ```
 
-Using this starter code, complete the custom function that computes the sum of the squares of two numbers, i.e a<sup>2</sup> + b<sup>2</sup>. Prompt the user to enter two numbers (one at a time), then send those two numbers to the custom function. You could say you are "calling this function with two integer arguments". The function should square each number, add them together, and return that total to your main program.
+Now, using this starter code, complete the custom function that computes the sum of the squares of two numbers, i.e a<sup>2</sup> + b<sup>2</sup>. Prompt the user to enter two numbers (one at a time), then send those two numbers to the custom function. You could say you are "calling this function with two integer arguments". The function should square each number, add them together, and return that total to your main program.
 
 Make sure to test your program with different numbers.
 
