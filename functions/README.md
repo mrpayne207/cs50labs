@@ -55,7 +55,7 @@ int square(int n);  //function prototype, aka declaration
 int main(void)
 {
     int side = get_int("Enter the side length: ");
-    printf("The area is %i.\n", square(side));   //square(side) is the fucntion call, which is inside the printf function
+    printf("The area is %i.\n", square(side));   //square(side) is the function call
 }
 
 //function definition
