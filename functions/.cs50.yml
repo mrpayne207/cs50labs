@@ -2,6 +2,7 @@ lab50:
   files:
     - !exclude "*"
     - !include functions.c
+    - !include functions2.c
 
 check50:
   files: &check50_files
