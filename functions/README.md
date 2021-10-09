@@ -120,7 +120,7 @@ Compile and run your code and make sure it works before proceeding.
 
 {% next %}
 
-### Part 2:Create a function called get_negative_int
+### Part 2: Create a function called get_negative_int
 
 In C you can add as many custom functions as you'd like to your code. Let's try that by adding a second function `get_negative_int()`. Using this same file, add a second function following the same format as `get_positive_int()` only this time you want to make sure the user enters a negative number. Here are the things you'll need to do:
 1. Using the existing prototype on line 4, create a new one for `get_negative_int()`
