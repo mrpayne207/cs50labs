@@ -2,6 +2,8 @@ import check50
 import check50.c
 
 filename = "functions.c"
+filename2 = "functions2.c"
+
 @check50.check()
 def exists():
     """%s exists.""" % filename
@@ -11,3 +13,13 @@ def exists():
 def compiles():
     """%s compiles.""" % filename
     check50.c.compile(filename, lcs50=True)
+
+@check50.check()
+def exists():
+    """%s exists.""" % filename2
+    check50.exists(filename2)
+
+@check50.check(exists)
+def compiles():
+    """%s compiles.""" % filename2
+    check50.c.compile(filename2, lcs50=True)
