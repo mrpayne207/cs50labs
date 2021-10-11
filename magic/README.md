@@ -64,7 +64,9 @@ By defining these values once, at the top of our program, it becomes easier to c
 
 ## Your Turn
 
+### Part 1: Replace magic numbes with constants
 Modify the program on the right (the same program as in the variables lab) and change each of the **magic numbers** to **constants**. The first of these is already done for you.
+
 
 Be sure to compile your program by typing:
 
@@ -78,10 +80,51 @@ and then test it several times by executing:
 ./magic
 ```
 
+Once complete, let's move on!
+
+{% next %}
+
+### Part 2: Add another constant, C (the speed of light)
+
+Modify this program to compute `e` in the famous `e=mc^2`. 
+
+1. Ask the user to input a value for mass, `m`. 
+2. Create a constant `c` for the speed of light (you will need to look up the value). You may need to also look up the correct data type!
+3. Computer `e` using `m` and `c`
+
+Be sure to compile your program by typing:
+
+```
+make magic
+```
+
+and then test it several times by executing:
+
+```
+./magic
+```
+
+One more problem to go!
+
+{% next %}
+
+### Part 3: Redo Cash
+
+1. Go back and find the cod eyou submitted for the cash problem. The fastest way is to find it on the [submit50 page](https://submit.cs50.io)
+2. Copy that code into a new file in this lab called cash.c.
+3. Create constants for all the times you ran an operation using one of the money values. In other words, create a constant for quarter, dime, nickel and penny. 
+4. Then replace the appropriate areas in your code with these constants.
+
 Finally when all seems good, check your style with:
 
 ```
 style50 magic.c
 ```
+
+### Part 4: Submitting your code and Additional Information
+
+Once you completed parts 1-3, you can submit your code using the link further down. After submitting your work, please read the folling PDF on good design principles.
+
+`submit50 marinacademycs/cs50labs/2020/magic`
 
 [For more info, download the CS50 Principles of Good Design Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/principles_of_good_design.pdf)
