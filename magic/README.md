@@ -64,7 +64,7 @@ By defining these values once, at the top of our program, it becomes easier to c
 
 ## Your Turn
 
-### Part 1: Replace magic numbes with constants
+### Part 1: Replace magic numbers with constants
 Modify the program on the right (the same program as in the variables lab) and change each of the **magic numbers** to **constants**. The first of these is already done for you.
 
 
