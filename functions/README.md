@@ -178,20 +178,31 @@ Now, using this starter code, complete the custom function that computes the sum
 
 Make sure to test your program with different numbers.
 
-Got it? Great! You can complete the optional part 4 in the enxt step, or continue straight to submitting your work.
+Got it? Great! You can complete the optional part 4 in the next step, or continue straight to submitting your work.
 
 {% next %}
 
-### Part 4 (optional): Find the Hypotenuse 
+#### Part 4: Debugging
+
+The below program has syntax bugs in it. Syntax bugs mean the code wasn't written according to the rules of C (incorrect semicolons, brackets, etc). Create a new file called functions3.c and copy the the below code into it.
+
+Find and fix all the bugs so that the code compiles and runs! Feel free to look at other code examples.
+
+```
+
+```
+
+{% next %}
+### Part 5 (optional): Find the Hypotenuse 
 
 #### This part is optional! You can press next below to submit your work on problems 1-3.
 
 Did you notice how the last problem computed the sum of two sides of a triangle? Let's finish it off by computing c in Pythagorean's Theorem, a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>. All that is left is to take the square root of total from the last problem. To do part 4:
 
-1. Create a new file called functions3.c
+1. Create a new file called functions4.c
 2. Copy the code from functions2.c into functions3.c
 3. Modify your function defintion and prototype so that it computes c, given a and b from the user.
-4. You'll need to figure out how to [calculate the square root on your own] (https://manual.cs50.io/)
+4. You'll need to figure out how to [calculate the square root on your own](https://manual.cs50.io/)
 5. Don't forget to check the function return type...
 
 
@@ -199,13 +210,14 @@ Press next to submit your work!
 
 {% next %}
 
-### Style
+## Style
 
 Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
 
 ```
 style50 functions.c
 style50 functions2.c
+(optionally) style50 functions3.c 
 ```
 
 It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
