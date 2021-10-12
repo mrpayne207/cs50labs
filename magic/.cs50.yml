@@ -14,3 +14,4 @@ check50:
 
 submit50:
   files: *check50_files
+    - !include cash.c
