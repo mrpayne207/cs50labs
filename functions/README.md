@@ -182,14 +182,34 @@ Got it? Great! You can complete the optional part 4 in the next step, or continu
 
 {% next %}
 
-#### Part 4: Debugging
+### Part 4: Debugging
 
 The below program has syntax bugs in it. Syntax bugs mean the code wasn't written according to the rules of C (incorrect semicolons, brackets, etc). Create a new file called functions3.c and copy the the below code into it.
 
-Find and fix all the bugs so that the code compiles and runs! Feel free to look at other code examples.
+1. Find and fix all the bugs so that the code compiles and runs. Feel free to look at other code examples.
+2. Using comments, identify the function prototype AND function definition.
 
-```
 
+
+```c
+#include <stdio.h>
+#include cs50.h
+
+convert_to_Fahrenheit(float a)          
+ 
+int main()
+{
+    float temp = get_float("Enter a temp in C: ");
+    temp = convert_to_Fahrenheit(temp);
+    printf("Your temp in F is: %.2f\n", temp); 
+}
+
+float convert_to_Fahrenheit( someTemp )
+{
+    float newTemp;
+    newTemp = 9 * someTemp / 5 + 32;
+    
+}
 ```
 
 {% next %}
@@ -224,7 +244,7 @@ It's good to get into good habits now, so when you start writing longer and more
 
 ## How to Submit
 
-To submit your code, execute
+To submit your code, execute:
 
 ```
 submit50 marinacademycs/cs50labs/2020/functions
