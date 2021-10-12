@@ -14,5 +14,4 @@ check50:
 
 submit50:
   files: 
-    - !include cash.c
-    - !include magic.c
+    - !include "*.c"
