@@ -15,11 +15,11 @@ def compiles():
     check50.c.compile(filename, lcs50=True)
 
 @check50.check()
-def exists():
+def functions2_exists():
     """%s exists.""" % filename2
     check50.exists(filename2)
 
 @check50.check(exists)
-def compiles():
+def functions2.compiles():
     """%s compiles.""" % filename2
     check50.c.compile(filename2, lcs50=True)
