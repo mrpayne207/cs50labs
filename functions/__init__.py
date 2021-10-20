@@ -19,7 +19,7 @@ def functions2_exists():
     """%s exists.""" % filename2
     check50.exists(filename2)
 
-@check50.check(exists)
-def functions2.compiles():
+@check50.check(functions2_exists)
+def functions2_compiles():
     """%s compiles.""" % filename2
     check50.c.compile(filename2, lcs50=True)
