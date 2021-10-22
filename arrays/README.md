@@ -115,4 +115,33 @@ Why do you think we're printing the value `i + 1` for the day?
 
 Make sure to compile and test both programs!
 
+### Correctness
+
+Check your work with...
+
+```
+check50 marinacademycs/cs50labs/2020/arrays
+```
+
+### Style
+
+Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
+
+```
+style50 array.c
+style50 string.c
+```
+
+It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
+
+## How to Submit
+
+To submit your code, execute
+
+```
+submit50 marinacademycs/cs50labs/2020/array
+```
+
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
+
 [Download our CS50 Reference sheet on Arrays and Strings](https://cs50.harvard.edu/ap/2020/assets/pdfs/arrays_and_strings.pdf)
