@@ -19,6 +19,6 @@ def string_exists():
     check50.exists(filename2)
 
 @check50.check(string_exists)
-def compiles():
+def string_compiles():
     """%s compiles.""" % filename2
     check50.c.compile(filename2, lcs50=True)
