@@ -4,6 +4,7 @@ In this lab you will learn about:
 
 - Linear search
 - Computational complexity
+- Max Search, a similar algorithm to Linear serach
 
 ## What is Linear Search?
 
@@ -39,6 +40,8 @@ We can see that **linear search** is not usually an efficient algorithm, especia
 
 ## Your Turn
 
+### Part 1: Linear Search
+
 Practice writing a **linear search** algorithm by completing the function in `linear.c`. The purpose of the program is to determine if a number that is input matches any of the numbers on a particular bingo card.
 
 The function prototype is already defined as:
@@ -61,5 +64,85 @@ The function definition is located after the `main()` function closes. Complete 
 
 Be sure to test your function by compiling and executing your program. Try a variety of inputs, including some numbers that are in the `bingo_card` array and some numbers that are not.
 
+{% next %}
 
+### Part 2: Max Search
+
+Sometimes we need to find the largest or smallest item in an array of ***unsorted items***. The fact the array is ***unsorted*** is important because if the list is sorted we could infer either the first or last item is the largest. For this example, let's say we don't want to spend the time to sort the list because that would not be worth the effort (take too long to code, isn't necessary in the long term, etc).
+
+How might you do this? Take a minute and think of your pseudocode.
+
+{% spoiler "Hint" %}
+
+How about this:
+
+```
+use a variable, max, and set the largest number to the first item in the array.
+check each number in the array
+    if that number is larger than max
+        max equals that number
+    else
+        continue
+```
+See what is happeneing? We are changing the value of max as we go through the loop. Give it a try using C below.
+
+{% endspoiler %}
+
+Copy the below code into a file named `maxsearch.c` and complete the `max_search` function to find the largest item in the list.
+
+```c
+// complete the max search function
+
+#include <cs50.h>
+
+#define TOTAL 24
+
+// function prototype
+int max_search(int arr[], int size);
+
+// Numbers in array
+int numbers[] = {7, 14, 400, 9, 6, 26, -22, 24, 201, 28, 40, 3422, 36, 35, 582, 55, 46, -52, 49, 73, 68, -2272, 74, 64};
+
+int main(void)
+{  
+    printf("The largest number is %d", max_search(numbers, TOTAL));   
+}
+
+//This function takes an array and returns the largest integer in the array.
+int max_search(int arr[], int size)
+{
+    
+    //TODO
+
+}
+````
+
+### Correctness
+
+Check your work with...
+
+```
+check50 marinacademycs/cs50labs/2020/linearsearch
+```
+
+### Style
+
+Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
+
+```
+style50 linear.c
+style50 maxsearch.c
+```
+
+It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
+
+## How to Submit
+
+To submit your code, execute
+
+```
+submit50 marinacademycs/cs50labs/2020/linearsearch
+```
+
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
 [Download our CS50 Reference sheet on Linear Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/linear_search.pdf)
