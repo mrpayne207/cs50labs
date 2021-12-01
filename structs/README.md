@@ -59,16 +59,51 @@ We access each `student` in the `students` array the usual way with `[i]`, and u
 
 ## Your Turn
 
-As you may have seen in lecture, David demonstrates the use of **structs** in the program `struct1.c`. The program is included on the right for your review. Our familiar `for` loop is used here to iterate through the `students` array, and access each **member** in each of the element of `students`.
+### Part 1 - Add new types to `struct1.c`
 
-Note that in David's program, he created a **header** file, named `struct.h`, to define his `student` data type. This file is then included at the top of `struct1.c`. This is a common technique used by C programmers as programs become longer and more complex.
+The file `struct1.c` should already be open on the right of your screen. This file illustrates the use of **structs**. Our familiar `for` loop is used here to iterate through the `students` array, and access each **member** in each of the element of `students`.
 
-Your job is to complete the program, `mystruct.c`, and create your own datatype, add data to a few members, and then print them out. You do not need to define your structure in a header file.
+Your job is to add additional data types to the student struct. Make sure you add more than one. For example, you could add `age`, `height`, `major`, etc. Make sure to also add prompts to the user to enter this information and print it out at the end.
+
+{% next %}
+
+### Part 2 - Create your own struct
+
+Your job now is to complete the program, `mystruct.c`, and create your own datatype, add data to a few members, and then print them out. 
 
 The basic definition of a new data type is already there, however please change the name of your new structure from `name_goes_here` to something of your liking.
 
 You may declare either a single variable or an array using your new data type. If you use an array, you'll want to use a `for` loop to add and print the data for each member.
 
-Be sure to test your code with valid data, invalid data, and corner cases!
+Be sure to test your code with valid data, invalid data, and special cases!
+
+### Correctness
+
+Check your work with...
+
+```
+check50 marinacademycs/cs50labs/2020/structs
+```
+
+### Style
+
+Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
+
+```
+style50 struct1.c
+style50 mystruct.c
+```
+
+It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
+
+## How to Submit
+
+To submit your code, execute
+
+```
+submit50 marinacademycs/cs50labs/2020/structs
+```
+
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
 
 [Download our CS50 Reference sheet on Structures and Encapsulation](https://cs50.harvard.edu/ap/2020/assets/pdfs/structures_and_encapsulation.pdf)
