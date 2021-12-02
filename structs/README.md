@@ -61,7 +61,7 @@ We access each `student` in the `students` array the usual way with `[i]`, and u
 
 ### Part 1 - Add new types to `struct1.c`
 
-The file `struct1.c` should already be open on the right of your screen. This file illustrates the use of **structs**. Our familiar `for` loop is used here to iterate through the `students` array, and access each **member** in each of the element of `students`.
+The file `struct1.c` should already be open on the right of your screen, although you may need to click on the correct tab to view it. This file illustrates the use of **structs**. Our familiar `for` loop is used here to iterate through the `students` array, and access each **member** in each of the element of `students`.
 
 Your job is to add additional data types to the student struct. Make sure you add more than one. For example, you could add `age`, `height`, `major`, etc. Make sure to also add prompts to the user to enter this information and print it out at the end.
 
@@ -76,6 +76,10 @@ The basic definition of a new data type is already there, however please change 
 You may declare either a single variable or an array using your new data type. If you use an array, you'll want to use a `for` loop to add and print the data for each member.
 
 Be sure to test your code with valid data, invalid data, and special cases!
+
+Continue on to check correctness and submit.
+
+{% next %}
 
 ### Correctness
 
