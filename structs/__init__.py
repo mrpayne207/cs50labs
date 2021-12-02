@@ -19,6 +19,6 @@ def struct1_exists():
     check50.exists(filename2)
 
 @check50.check(struct1_exists)
-def string_compiles():
+def struct1_compiles():
     """%s compiles.""" % filename2
     check50.c.compile(filename2, lcs50=True)
