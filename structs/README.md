@@ -1,4 +1,4 @@
-# Structures and Encapsulation
+# Structures
 
 In this lab you will learn:
 
