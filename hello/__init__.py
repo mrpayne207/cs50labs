@@ -1,7 +1,7 @@
 import check50
 import check50.c
 
-filename = "hello.c"
+filename = "variables.c"
 @check50.check()
 def exists():
     """%s exists.""" % filename
