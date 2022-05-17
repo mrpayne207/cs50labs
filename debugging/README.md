@@ -14,6 +14,7 @@ If the compiler error message is hard to understand, we can prepend `help50` to 
 ```
 help50 make hello
 ```
+help50 still has it's shortcomings because it is dependant on the information that the comiler gives it. Remember a single missing comma likely throws errors for most of the code that comes after that. That could be fine though, it's just a missing comma that came before that.
 
 On the other hand, when we encounter a **logical error**, our program usually compiles and runs, but gives us an incorrect result.
 
@@ -48,13 +49,21 @@ To comment out blocks of code quickly, highlight multiple lines of code and pres
 
 This will toggle comments on and off.
 
+
+### Test using inputs that you think should work, and ***inputs you expect will fail.***
+
+It is easy to expect the users of our programs to always enter proper inputs and behave correctly when using our programs. This is not always (or perhaps usually) the case. Test your programs using inputs to help confirm your program works like you wanted it to. Also, **test using incorrect values to make sure it fails when it is supposed to!** This is really important. Just like `get_int` doesn't accept strings, you programs should handle misbehaving users who enter incorrect information or otherwise try to get your programs to break.
+
+
 ### Rubber Duck Debugging
 
 Yes, this is actually a thing! The idea is to explain your code, line-by-line, to a rubber duck, or another inanimate object. In describing what our code is supposed to do, and observing what it actually does, our error can become apparent. Forcing ourselves to explain code line-by-line can provide a deeper understanding as well.
 
+
 ### Compile and test code frequently
 
 In general, it's a good idea to compile and run our code frequently to get immediate feedback. This way when we do have a bug, we can be fairly certain it is contained in the new segment of code we just finished writing.
+
 
 {% next %}
 

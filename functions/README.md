@@ -50,14 +50,15 @@ Let's take a look at this example:
 #include <cs50.h>
 #include <stdio.h>
 
-int square(int n);
+int square(int n);  //function prototype, aka declaration
 
 int main(void)
 {
     int side = get_int("Enter the side length: ");
-    printf("The area is %i.\n", square(side));
+    printf("The area is %i.\n", square(side));   //square(side) is the function call
 }
 
+//function definition
 int square(int n)
 {
     return n * n;
@@ -76,6 +77,8 @@ Feel free to try typing this code into a new file, compiling it, and testing it.
 
 ## Your Turn
 
+### Part 1: Create a function called get_positive_int
+
 Now you will create a custom function `get_positive_int()`, that should take as input a prompt from the user and should output the positive integer, once the user has complied. You may want to use functions we've already used, such as `get_int()`, in your implementation.
 
 The code is already started, with a function prototype already done. However the function itself, always returns a 0, which is not a positive number.
@@ -92,7 +95,7 @@ Try to get the function to do one thing at a time. Perhaps get a loop working wi
 
 If you wish to use `get_int()`, using `prompt` directly inside the parentheses won't work. This is because the input for `get_int()` works like a `printf()` statement, where we use placeholder for variables. So you may need to syntax something like
 
-```c
+```
 result = get_int("%s", prompt);
 ```
 
@@ -112,6 +115,143 @@ If you are really stuck, try to write some pseudocode first.
 
 
 {% endspoiler %}
+
+Compile and run your code and make sure it works before proceeding.
+
+{% next %}
+
+### Part 2: Create a function called get_negative_int
+
+In C you can add as many custom functions as you'd like to your code. Let's try that by adding a second function `get_negative_int()`. Using this same file, add a second function following the same format as `get_positive_int()` only this time you want to make sure the user enters a negative number. Here are the things you'll need to do:
+1. Using the existing prototype on line 4, create a new one for `get_negative_int()`
+2. Using the existing `get_positive_int()` function definition as a template, create a new function called `get_negative_int()` using the same function argument `string prompt`. Make sure to modify the name and make it so it returns a negative number and not a positive number.
+3. In your main function, prompt the user for a negative number, and then print that back, just like you did for `get_positive_int()`.
+
+Got it? Let's do one final problem!
+
+{% next %}
+
+### Part 3: Create a function that adds the sum of two squared numbers
+
+This problems requires you to write more in the function's definition than before. Create a new file named **functions2.c**. Copy this starter code into that file:
+```c
+#include <stdio.h>
+#include <cs50.h>
+
+//Function Prototype to tell compiler function exists 
+long squared_sums(int a, int b);
+
+int main (void)
+{
+  //Prompt user to enter two numbers
+  
+  
+  
+  //Call the squared_sums function with those numbers as arguments
+  //Remember, the function should return a valeue, so you'll need a variable 
+  //to store that in.
+  
+  
+  
+  //Print the result
+  
+  
+}
+
+//Function definition
+long squared_sums(int a, int b)
+{
+  int total;
+  
+  //Square int a and square int b
+  
+  
+  //Add them together and store in a variable called total
+  
+  
+  return total;
+  
+}
+```
+
+Now, using this starter code, complete the custom function that computes the sum of the squares of two numbers, i.e a<sup>2</sup> + b<sup>2</sup>. Prompt the user to enter two numbers (one at a time), then send those two numbers to the custom function. You could say you are "calling this function with two integer arguments". The function should square each number, add them together, and return that total to your main program.
+
+Make sure to test your program with different numbers.
+
+Got it? Great! You can complete the optional part 4 in the next step, or continue straight to submitting your work.
+
+{% next %}
+
+### Part 4: Debugging
+
+The below program has syntax bugs in it. Syntax bugs mean the code wasn't written according to the rules of C (incorrect semicolons, brackets, etc). Create a new file called **functions3.c** and copy the the below code into it.
+
+1. Find and fix all the bugs so that the code compiles and runs. Feel free to look at other code examples.
+2. Using comments, identify the function prototype AND function definition.
+
+
+
+```c
+#include <stdio.h>
+#include cs50.h
+
+convert_to_Fahrenheit(float a)          
+ 
+int main()
+{
+    float temp = get_float("Enter a temp in C: ");
+    temp = convert_to_Fahrenheit(temp);
+    printf("Your temp in F is: %.2f\n", temp); 
+}
+
+float convert_to_Fahrenheit( someTemp )
+{
+    float newTemp;
+    newTemp = 9 * someTemp / 5 + 32;
+    
+}
+```
+
+{% next %}
+### Part 5 (optional): Find the Hypotenuse 
+
+#### This part is optional! You can press next below to submit your work on problems 1-4.
+
+Did you notice how the last problem computed the sum of two sides of a triangle? Let's finish it off by computing c in Pythagorean's Theorem, a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>. All that is left is to take the square root of total from the last problem. To complete part 5:
+
+1. Create a new file called **functions4.c**
+2. Copy the code from functions2.c into functions3.c
+3. Modify your function defintion and prototype so that it computes c, given a and b from the user.
+4. You'll need to figure out how to [calculate the square root on your own](https://manual.cs50.io/)
+5. Don't forget to check the function return type...
+
+
+Press next to submit your work!  
+
+{% next %}
+
+## Style
+
+Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
+
+```
+style50 functions.c
+style50 functions2.c
+style50 functions3.c
+(optionally) style50 functions4.c 
+```
+
+It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
+
+## How to Submit
+
+To submit your code, execute:
+
+```
+submit50 marinacademycs/cs50labs/2020/functions
+```
+
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
 
 
 [For more information on functions download our CS50 Functions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/functions.pdf)

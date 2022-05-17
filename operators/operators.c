@@ -18,9 +18,9 @@ int main(void)
    
     // printing the results
     printf("\n");
-    printf("a plus 3 is %i\n", b);
-    printf("a times 5 is %i\n", c);
-    printf("a divided by 4 is %i\n", d);
-    printf("a mod 4 is %i\n", e);
+    printf("a plus 3 is %d\n", b);
+    printf("a times 5 is %d\n", c);
+    printf("a divided by 4 is %d\n", d);
+    printf("a mod 4 is %d\n", e);
     printf("a divided by 4.0 is really %f\n", f);
 }

@@ -1,6 +1,17 @@
 lab50:
   files:
     - !exclude "*"
-    - !include struct.h
     - !include struct1.c
     - !include mystruct.c
+
+check50:
+  files: &check50_files
+    - !exclude "*"
+    - !include "*.c"
+    - !include "*.txt"
+    - !include "*.doc"
+    - !include "*.docx"
+    - !include "*.pdf"
+
+submit50:
+  files: *check50_files

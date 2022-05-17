@@ -13,4 +13,5 @@ check50:
     - !include "*.pdf"
 
 submit50:
-  files: *check50_files
+  files: 
+    - !include "*.c"

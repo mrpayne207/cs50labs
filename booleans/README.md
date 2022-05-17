@@ -195,7 +195,7 @@ It's good to get into good habits now, so when you start writing longer and more
 To submit your code, execute
 
 ```
-submit50 marinacademycs/cs50labs/2020/forloop
+submit50 marinacademycs/cs50labs/2020/booleans
 ```
 
 Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)

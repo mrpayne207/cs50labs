@@ -39,4 +39,31 @@ Be sure to test your program with numbers in this range, numbers outside of this
 
 You may have to use a logical operator, such as `&&` (AND) or `||` (OR) to combine two conditions for this.
 
+### Correctness
+
+Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below:
+
+```
+check50 marinacademycs/cs50labs/2020/dowhileloop
+```
+
+### Style
+
+If you pass all the check50 test cases, and get all green smiley faces, try checking style50, as with:
+
+```
+style50 dowhile.c
+```
+
+When your program compiles and passes the style test, you have completed Data Types!
+
+## How to Submit
+
+To submit your code, execute
+
+```
+submit50 marinacademycs/cs50labs/2020/dowhileloop
+```
+Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
+
 [For more info on loops, download the CS50 Loops Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
