@@ -192,7 +192,7 @@ style50 variables.c
 To submit your code, execute
 
 ```
-submit50 marinacademycs/cs50labs/2020/variables
+submit50 mrpayne207/cs50labs/2021/variables
 ```
 
 Your submission should be graded for corretness and style withing a few minutes on [the me50 course page](https://submit.cs50.io/)
