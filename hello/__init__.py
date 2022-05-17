@@ -6,7 +6,7 @@ filename = "hello.c"
 def exists():
     """%s exists.""" % filename
     check50.exists(filename)
-  
+
 @check50.check(exists)
 def compiles():
     """%s compiles.""" % filename
