@@ -61,7 +61,7 @@ Got it? Great! After you recompile, run it again and it should say hello to you.
 Now let's practice submitting your work. Labs and problem sets will be submitted in this way. Execute the code below, logging in with your GitHub username and Github `token` when prompted. The token will appear as asterisks for security purposes.
 
 ```
-submit50 marinacademycs/cs50labs/2021/hello
+submit50 mrpayne207/cs50labs/2021/hello
 ```
 
 You will be prompted to accept the Academic Honesty policy. Type yes and your lab will be submitted! Follow the link to your results.
