@@ -1,7 +1,7 @@
 lab50:
   files:
     - !exclude "*"
-    - !include helloworld.c
+    - !include hello.c
 
 check50:
   files: &check50_files
