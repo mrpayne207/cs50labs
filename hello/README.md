@@ -55,7 +55,6 @@ Wait...nothing changed.  Because you changed the program, you'll need to recompi
 
 Got it? Great! After you recompile, run it again and it should say hello to you.
 
-
 ## How to Submit
 
 Now let's practice submitting your work. Labs and problem sets will be submitted in this way. Execute the code below, logging in with your GitHub username and Github `token` when prompted. The token will appear as asterisks for security purposes.
